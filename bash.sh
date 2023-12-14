@@ -7,7 +7,7 @@ read -p "The input start... " start
 read -p "The end start... " end
 
 if [[ -z $start || -z $end ]]; then
-  echo Your inputs is incorrect
+  echo Your inputs are incorrect
   exit 1
 fi
 
